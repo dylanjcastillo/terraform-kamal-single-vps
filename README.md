@@ -1,0 +1,2 @@
+# terraform-kamal-single-vps
+ 
