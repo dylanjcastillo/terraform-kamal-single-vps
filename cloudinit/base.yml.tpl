@@ -51,7 +51,3 @@ runcmd:
   - mkdir -p /letsencrypt && touch /letsencrypt/acme.json && chmod 600 /letsencrypt/acme.json
   - chown -R kamal:kamal /letsencrypt
   - reboot
-  # If you need to do anything else, add it here
-  - mkdir -p /data
-  - mkdir -p /db
-  - chown -R 1000:1000 /db /data
