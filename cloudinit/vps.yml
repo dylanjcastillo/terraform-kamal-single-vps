@@ -20,7 +20,7 @@ users:
       - ALL=(ALL) NOPASSWD:ALL
     shell: /bin/bash
     ssh_authorized_keys:
-      - ${ssh_key}
+      - ${ssh_vps_kamal_key}
     uid: 1000
 
 write_files:

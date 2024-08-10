@@ -4,6 +4,6 @@ data "cloudinit_config" "cloud_config_vps" {
 
   part {
     content_type = "text/cloud-config"
-    content      = file("${path.module}/cloudinit/vps.yml", {ssh_key = var.ssh_vps_kamal_key})
+    content      = file("${path.module}/cloudinit/vps.yml")
   }
 }
