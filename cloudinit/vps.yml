@@ -5,3 +5,4 @@ runcmd:
   - mkdir -p /data
   - mkdir -p /db
   - chown -R 1000:1000 /db /data
+  # Add any additional commands you need here
